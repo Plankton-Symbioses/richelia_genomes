@@ -1,0 +1,13 @@
+README for richelia_genomes repository
+======================================
+
+This repository contains all Richelia spp. genomes we know about. (If it
+doesn't let me know: daniel.lundin@lnu.se.)
+
+Subdirectories
+--------------
+
+Here are short descriptions of the contents of the subdirectories. In each/some
+of them, there are individual READMEs with more information.
+
+original_data: Contigs downloaded from different places.

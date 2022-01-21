@@ -1,8 +1,8 @@
 sessionname richelia_genomes
 setenv ROOT $PWD
 # __INSERTPOINT__ This line allows a script to insert new configuration lines here.
-chdir $ROOT/data
-screen -t data
+chdir $ROOT/original_data
+screen -t original_data
 chdir $ROOT/scripts
 screen -t scripts
 chdir $ROOT

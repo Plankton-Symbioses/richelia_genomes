@@ -5,4 +5,5 @@ delmont_2021
 gtdb/r202
 paoli_2021
 
-Each directory contains contigs as well as Prokka annotated data.
+Each directory contains only contigs as downloaded from their source plus a
+README.

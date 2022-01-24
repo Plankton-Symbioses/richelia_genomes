@@ -1,0 +1,8 @@
+README for richelia_genomes/original_data directory
+===================================================
+
+delmont_2021
+gtdb/r202
+paoli_2021
+
+Each directory contains contigs as well as Prokka annotated data.

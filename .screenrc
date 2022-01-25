@@ -9,6 +9,8 @@ chdir $ROOT/annotations/prokka
 screen -t prokka
 chdir $ROOT/checkm
 screen -t checkm
+chdir $ROOT/gtdbtk
+screen -t gtdbtk
 chdir $ROOT/scripts
 screen -t scripts
 chdir $ROOT

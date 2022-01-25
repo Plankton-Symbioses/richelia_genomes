@@ -1,7 +1,9 @@
+include ../biomakefiles/lib/make/makefile.misc
+
 ADD_IDENTIFIER = for a in $$(cut -f 1 $< | grep -v 'accession'); do \
 	    s=$$(awk -F'\t' "{ if ( \$$1 ~ /$$a/ ) { print \$$4 } }" $<); \
 	    if [ "$$s" ]; then \
-	    	gunzip -c links/$${a}*$(suffix $(basename $(word 2,$^))).gz | sed "/^>/s/$$/ [$$s]/" | gzip -c >> $@; \
+	    	gunzip -c links/$${a}*$(suffix $(basename $(word 2,$^))).gz | sed "/^>/s/$$/ [$$s]/" | $(CLEAN_FASTA) | gzip -c >> $@; \
 	    else \
 	    	echo "Couldn't find $$a in $<"; \
 	    fi; \

@@ -1,0 +1,294 @@
+[18:47:15] This is prokka 1.14.6
+[18:47:15] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[18:47:15] Homepage is https://github.com/tseemann/prokka
+[18:47:15] Local time is Tue Jan 25 18:47:15 2022
+[18:47:15] You are dl
+[18:47:15] Operating system is linux
+[18:47:15] You have BioPerl 1.007002
+[18:47:15] System has 24 cores.
+[18:47:15] Will use maximum of 24 cores.
+[18:47:15] Annotating as >>> Bacteria <<<
+[18:47:15] Generating locus_tag from 'BGEO_SAMN07136523_METAG_IKJKMCAK.fna' contents.
+[18:47:15] Setting --locustag EBJKBJDD from MD5 eb34b3ddc611c4949afa8264b4a64219
+[18:47:15] Enabling options to ensure Genbank/ENA/DDJB submission compliance.
+[18:47:15] Creating new output folder: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d
+[18:47:15] Running: mkdir -p BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d
+[18:47:15] Using filename prefix: BGEO_SAMN07136523_METAG_IKJKMCAK.XXX
+[18:47:15] Setting HMMER_NCPU=1
+[18:47:15] Writing log to: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.log
+[18:47:15] Command: /home/dl/miniconda3/envs/prokka/bin/prokka --outdir=BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d --prefix=BGEO_SAMN07136523_METAG_IKJKMCAK --cpus=0 --centre X --compliant BGEO_SAMN07136523_METAG_IKJKMCAK.fna
+[18:47:15] Appending to PATH: /home/dl/miniconda3/envs/prokka/bin
+[18:47:15] Looking for 'aragorn' - found /home/dl/miniconda3/envs/prokka/bin/aragorn
+[18:47:15] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[18:47:15] Looking for 'barrnap' - found /home/dl/miniconda3/envs/prokka/bin/barrnap
+[18:47:15] Determined barrnap version is 000009 from 'barrnap 0.9'
+[18:47:15] Looking for 'blastp' - found /home/dl/miniconda3/envs/prokka/bin/blastp
+[18:47:16] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[18:47:16] Looking for 'cmpress' - found /home/dl/miniconda3/envs/prokka/bin/cmpress
+[18:47:16] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[18:47:16] Looking for 'cmscan' - found /home/dl/miniconda3/envs/prokka/bin/cmscan
+[18:47:16] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[18:47:16] Looking for 'egrep' - found /usr/bin/egrep
+[18:47:16] Looking for 'find' - found /usr/bin/find
+[18:47:16] Looking for 'grep' - found /usr/bin/grep
+[18:47:16] Looking for 'hmmpress' - found /home/dl/miniconda3/envs/prokka/bin/hmmpress
+[18:47:16] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[18:47:16] Looking for 'hmmscan' - found /home/dl/miniconda3/envs/prokka/bin/hmmscan
+[18:47:16] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[18:47:16] Looking for 'java' - found /home/dl/miniconda3/envs/prokka/bin/java
+[18:47:16] Looking for 'makeblastdb' - found /home/dl/miniconda3/envs/prokka/bin/makeblastdb
+[18:47:17] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[18:47:17] Looking for 'minced' - found /home/dl/miniconda3/envs/prokka/bin/minced
+[18:47:17] Determined minced version is 004002 from 'minced 0.4.2'
+[18:47:17] Looking for 'parallel' - found /home/dl/miniconda3/envs/prokka/bin/parallel
+[18:47:17] Determined parallel version is 20211222 from 'GNU parallel 20211222'
+[18:47:17] Looking for 'prodigal' - found /home/dl/miniconda3/envs/prokka/bin/prodigal
+[18:47:17] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[18:47:17] Looking for 'prokka-genbank_to_fasta_db' - found /home/dl/miniconda3/envs/prokka/bin/prokka-genbank_to_fasta_db
+[18:47:17] Looking for 'sed' - found /usr/bin/sed
+[18:47:17] Looking for 'tbl2asn' - found /home/dl/miniconda3/envs/prokka/bin/tbl2asn
+[18:47:17] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[18:47:17] Using genetic code table 11.
+[18:47:17] Loading and checking input file: BGEO_SAMN07136523_METAG_IKJKMCAK.fna
+[18:47:17] Wrote 764 contigs totalling 2676552 bp.
+[18:47:17] Predicting tRNAs and tmRNAs
+[18:47:17] Running: aragorn -l -gc11  -w BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.fna
+[18:47:17] 1 tRNA-Val c[10189,10261] 34 (tac)
+[18:47:17] 1 tRNA-Cys [164,235] 33 (gca)
+[18:47:17] 1 tRNA-Phe c[2104,2178] 35 (gaa)
+[18:47:17] 1 tRNA-Ser c[2301,2389] 36 (gga)
+[18:47:17] 1 tRNA-Met [4114,4186] 34 (cat)
+[18:47:17] 1 tRNA-Leu [204,287] 35 (cag)
+[18:47:17] 1 tRNA-Met c[1699,1773] 35 (cat)
+[18:47:17] 1 tRNA-Pro c[878,951] 35 (cgg)
+[18:47:17] 2 tRNA-Arg [2406,2479] 35 (acg)
+[18:47:17] 1 tRNA-Glu c[1014,1087] 35 (ttc)
+[18:47:17] 1 tRNA-Trp [725,798] 34 (cca)
+[18:47:17] 1 tRNA-Met [2345,2421] 35 (cat)
+[18:47:17] 1 tRNA-His c[2723,2796] 34 (gtg)
+[18:47:17] 1 tRNA-Gly [2173,2244] 33 (gcc)
+[18:47:17] 1 tRNA-Asp [2452,2525] 35 (gtc)
+[18:47:17] 1 tRNA-Asn c[3140,3213] 34 (gtt)
+[18:47:17] 1 tRNA-Ser [86,174] 36 (cga)
+[18:47:17] 1 tRNA-Lys c[1682,1755] 34 (ttt)
+[18:47:17] 1 tRNA-Ser c[157,243] 36 (tga)
+[18:47:17] 1 tRNA-Val c[2310,2384] 35 (gac)
+[18:47:18] 1 tRNA-Ala [1818,1893] 35 (cgc)
+[18:47:18] 1 tRNA-Ile c[9490,9564] 35 (gat)
+[18:47:18] 2 tRNA-Glu c[10362,10433] 34 (ttc)
+[18:47:18] Found 23 tRNAs
+[18:47:18] Predicting Ribosomal RNAs
+[18:47:18] Running Barrnap with 24 threads
+[18:47:18] Found 0 rRNAs
+[18:47:18] Skipping ncRNA search, enable with --rfam if desired.
+[18:47:18] Total of 23 tRNA + rRNA features
+[18:47:18] Searching for CRISPR repeats
+[18:47:18] Found 0 CRISPRs
+[18:47:18] Predicting coding sequences
+[18:47:18] Contigs total 2676552 bp, so using single mode
+[18:47:18] Running: prodigal -i BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.fna -c -m -g 11 -p single -f sco -q
+[18:47:19] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|EBJKBJDD_6:10169..10285 on - strand
+[18:47:20] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|EBJKBJDD_228:2636..2803 on - strand
+[18:47:20] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|EBJKBJDD_257:2098..2193 on + strand
+[18:47:20] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|EBJKBJDD_454:138..275 on - strand
+[18:47:20] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|EBJKBJDD_604:8277..9536 on - strand
+[18:47:20] Found 1965 CDS
+[18:47:20] Connecting features back to sequences
+[18:47:20] Not using genus-specific database. Try --usegenus to enable it.
+[18:47:20] Annotating CDS, please be patient.
+[18:47:20] Will use 24 CPUs for similarity searching.
+[18:47:20] There are still 1965 unannotated CDS left (started with 1965)
+[18:47:20] Will use blast to search against /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/IS with 24 CPUs
+[18:47:20] Running: cat BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.IS\.tmp\.3557840\.faa | parallel --gnu --plain -j 24 --block 11940 --recstart '>' --pipe blastp -query - -db /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.IS\.tmp\.3557840\.blast 2> /dev/null
+[18:47:25] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.IS.tmp.3557840.faa
+[18:47:25] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.IS.tmp.3557840.blast
+[18:47:25] There are still 1965 unannotated CDS left (started with 1965)
+[18:47:25] Will use blast to search against /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR with 24 CPUs
+[18:47:25] Running: cat BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.AMR\.tmp\.3557840\.faa | parallel --gnu --plain -j 24 --block 11940 --recstart '>' --pipe blastp -query - -db /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.AMR\.tmp\.3557840\.blast 2> /dev/null
+[18:47:29] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.AMR.tmp.3557840.faa
+[18:47:29] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.AMR.tmp.3557840.blast
+[18:47:29] There are still 1965 unannotated CDS left (started with 1965)
+[18:47:29] Will use blast to search against /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot with 24 CPUs
+[18:47:29] Running: cat BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.sprot\.tmp\.3557840\.faa | parallel --gnu --plain -j 24 --block 11940 --recstart '>' --pipe blastp -query - -db /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.sprot\.tmp\.3557840\.blast 2> /dev/null
+[18:47:39] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[18:47:39] Modify product: UPF0182 protein Rv3193c => hypothetical protein
+[18:47:39] Modify product: SusD-like protein BACOVA_02651 => SusD-like protein
+[18:47:39] Modify product: Uncharacterized oxidoreductase MSMEG_1603/MSMEI_1564 => putative oxidoreductase/MSMEI_1564
+[18:47:39] Modify product: UPF0053 inner membrane protein YtfL => hypothetical protein
+[18:47:39] Modify product: Uncharacterized protein RP812 => putative protein RP812
+[18:47:39] Modify product: Carbon dioxide-concentrating mechanism protein CcmK homolog 2 => Carbon dioxide-concentrating mechanism protein CcmK 
+[18:47:39] Modify product: Carbon dioxide-concentrating mechanism protein CcmK homolog 1 => Carbon dioxide-concentrating mechanism protein CcmK 
+[18:47:39] Modify product: Probable iron export permease protein FetB => putative iron export permease protein FetB
+[18:47:39] Modify product: Probable 2-phosphosulfolactate phosphatase => putative 2-phosphosulfolactate phosphatase
+[18:47:39] Modify product: Glycogen operon protein GlgX homolog => Glycogen operon protein GlgX 
+[18:47:39] Modify product: Uncharacterized MFS-type transporter YfcJ => putative MFS-type transporter YfcJ
+[18:47:39] Modify product: Phage shock protein A homolog => Phage shock protein A 
+[18:47:39] Modify product: Uncharacterized phycocyanin operon protein Z => putative phycocyanin operon protein Z
+[18:47:39] Modify product: NADH dehydrogenase-like protein SAOUHSC_00878 => NADH dehydrogenase-like protein
+[18:47:39] Modify product: Uncharacterized protein Rv1829 => putative protein
+[18:47:39] Modify product: Probable ferredoxin/ferredoxin--NADP reductase => putative ferredoxin/ferredoxin--NADP reductase
+[18:47:39] Modify product: Putative transport protein Rv0205 => Putative transport protein
+[18:47:39] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[18:47:39] Modify product: Uncharacterized protein Rv2715 => putative protein
+[18:47:39] Modify product: Probable cytochrome c oxidase subunit 1 => putative cytochrome c oxidase subunit 1
+[18:47:39] Modify product: Uncharacterized symporter YjmB => putative symporter YjmB
+[18:47:39] Modify product: Uncharacterized ABC transporter ATP-binding protein YxlF => putative ABC transporter ATP-binding protein YxlF
+[18:47:39] Modify product: Probable phycoerythrobilin lyase CpeT => putative phycoerythrobilin lyase CpeT
+[18:47:39] Modify product: Monocarboxylate 2-oxoacid-binding periplasmic protein all3028 => Monocarboxylate 2-oxoacid-binding periplasmic protein
+[18:47:39] Modify product: Probable cysteine desulfurase => putative cysteine desulfurase
+[18:47:39] Modify product: Probable ATP-dependent transporter SufC => putative ATP-dependent transporter SufC
+[18:47:39] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[18:47:39] Modify product: Probable ketoamine kinase HMPREF0351_12196 => putative ketoamine kinase
+[18:47:39] Modify product: Probable multidrug resistance ABC transporter ATP-binding/permease protein YheI => putative multidrug resistance ABC transporter ATP-binding/permease protein YheI
+[18:47:39] Modify product: Uncharacterized ABC transporter ATP-binding protein YknY => putative ABC transporter ATP-binding protein YknY
+[18:47:39] Modify product: GTP cyclohydrolase 1 type 2 homolog => GTP cyclohydrolase 1 type 2 
+[18:47:39] Modify product: UPF0234 protein Rv0566c => hypothetical protein
+[18:47:39] Modify product: Probable ribonucleotide transport ATP-binding protein mkl => putative ribonucleotide transport ATP-binding protein mkl
+[18:47:39] Modify product: Uncharacterized protein alr4550 => putative protein
+[18:47:39] Modify product: Uncharacterized protein alr4550 => putative protein
+[18:47:39] Modify product: Sulfurtransferase Alvin_2599 => Sulfurtransferase
+[18:47:39] Modify product: Uncharacterized oxidoreductase SA2266 => putative oxidoreductase
+[18:47:39] Modify product: Uncharacterized oxidoreductase Rv2298 => putative oxidoreductase
+[18:47:39] Modify product: Probable transcriptional regulatory protein aq_1575 => putative transcriptional regulatory protein
+[18:47:39] Modify product: Uncharacterized protein Rv2004c => putative protein
+[18:47:39] Modify product: Probable undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase => putative undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase
+[18:47:39] Modify product: Probable adenylyltransferase/sulfurtransferase MoeZ => putative adenylyltransferase/sulfurtransferase MoeZ
+[18:47:39] Modify product: Uncharacterized ABC transporter ATP-binding protein YheS => putative ABC transporter ATP-binding protein YheS
+[18:47:39] Modify product: Uncharacterized protein slr1565 => putative protein
+[18:47:39] Modify product: 1,4-alpha-glucan branching enzyme TTHA1902 => 1,4-alpha-glucan branching enzyme
+[18:47:39] Modify product: Uncharacterized sugar epimerase YhfK => putative sugar epimerase YhfK
+[18:47:39] Modify product: Rqc2 homolog RqcH => Rqc2 RqcH
+[18:47:39] Modify product: Probable cytosol aminopeptidase => putative cytosol aminopeptidase
+[18:47:39] Modify product: Uncharacterized ABC transporter ATP-binding protein TM_0288 => putative ABC transporter ATP-binding protein
+[18:47:39] Modify product: Probable helicase HelY => putative helicase HelY
+[18:47:39] Modify product: UPF0382 membrane protein YwdK => hypothetical protein
+[18:47:39] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[18:47:39] Modify product: Uncharacterized PIN and TRAM-domain containing protein YacL => putative PIN and TRAM-domain containing protein YacL
+[18:47:39] Modify product: Uncharacterized protein YciH => putative protein YciH
+[18:47:39] Modify product: Epimerase family protein SA0724 => Epimerase family protein
+[18:47:39] Modify product: Uncharacterized RNA pseudouridine synthase Rv1711 => putative RNA pseudouridine synthase
+[18:47:39] Modify product: Putative low molecular weight protein-tyrosine-phosphatase slr0328 => Putative low molecular weight protein-tyrosine-phosphatase
+[18:47:39] Modify product: Uncharacterized signaling protein PA1727 => putative signaling protein
+[18:47:39] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
+[18:47:39] Modify product: Peroxiredoxin sll1621 => Peroxiredoxin
+[18:47:39] Cleaned 61 /product names
+[18:47:39] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.sprot.tmp.3557840.faa
+[18:47:39] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.sprot.tmp.3557840.blast
+[18:47:39] There are still 1170 unannotated CDS left (started with 1965)
+[18:47:39] Will use hmmer3 to search against /home/dl/miniconda3/envs/prokka/db/hmm/HAMAP.hmm with 24 CPUs
+[18:47:39] Running: cat BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.HAMAP\.hmm\.tmp\.3557840\.faa | parallel --gnu --plain -j 24 --block 6209 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/dl/miniconda3/envs/prokka/db/hmm/HAMAP.hmm /dev/stdin > BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.HAMAP\.hmm\.tmp\.3557840\.hmmer3 2> /dev/null
+[18:47:48] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.HAMAP.hmm.tmp.3557840.faa
+[18:47:48] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.HAMAP.hmm.tmp.3557840.hmmer3
+[18:47:48] Labelling remaining 1030 proteins as 'hypothetical protein'
+[18:47:48] Possible /pseudo 'Carbon dioxide-concentrating mechanism protein CcmK ' at gnl|X|EBJKBJDD_22 position 5989
+[18:47:48] Possible /pseudo 'DNA-directed RNA polymerase subunit beta'' at gnl|X|EBJKBJDD_52 position 4768
+[18:47:48] Possible /pseudo 'UvrABC system protein A' at gnl|X|EBJKBJDD_150 position 1482
+[18:47:48] Possible /pseudo 'ATP-dependent Clp protease proteolytic subunit' at gnl|X|EBJKBJDD_154 position 3436
+[18:47:48] Possible /pseudo 'Glycine--tRNA ligase beta subunit' at gnl|X|EBJKBJDD_178 position 2940
+[18:47:48] Possible /pseudo 'Protein translocase subunit SecY' at gnl|X|EBJKBJDD_192 position 872
+[18:47:48] Possible /pseudo 'putative protein' at gnl|X|EBJKBJDD_283 position 2058
+[18:47:48] Possible /pseudo 'Dihydroorotase' at gnl|X|EBJKBJDD_407 position 1929
+[18:47:48] Possible /pseudo 'Bicarbonate transporter BicA' at gnl|X|EBJKBJDD_726 position 558
+[18:47:48] Found 779 unique /gene codes.
+[18:47:48] Fixed 4 duplicate /gene - mshA_1 mshA_2 mshA_3 mshA_4
+[18:47:48] Fixed 4 duplicate /gene - rcsC_1 rcsC_2 rcsC_3 rcsC_4
+[18:47:48] Fixed 2 duplicate /gene - dnaK_1 dnaK_2
+[18:47:48] Fixed 2 duplicate /gene - gcvT_1 gcvT_2
+[18:47:48] Fixed 2 duplicate /gene - ligA_1 ligA_2
+[18:47:48] Fixed 2 duplicate /gene - sppA_1 sppA_2
+[18:47:48] Fixed 2 duplicate /gene - fusA_1 fusA_2
+[18:47:48] Fixed 2 duplicate /gene - rpsU1_1 rpsU1_2
+[18:47:48] Fixed 2 duplicate /gene - tldD_1 tldD_2
+[18:47:48] Fixed 2 duplicate /gene - mntB_1 mntB_2
+[18:47:48] Fixed 2 duplicate /gene - sigA2_1 sigA2_2
+[18:47:48] Fixed 2 duplicate /gene - lepB_1 lepB_2
+[18:47:48] Fixed 3 duplicate /gene - pknD_1 pknD_2 pknD_3
+[18:47:48] Fixed 3 duplicate /gene - dapL_1 dapL_2 dapL_3
+[18:47:48] Fixed 2 duplicate /gene - gyrA_1 gyrA_2
+[18:47:48] Fixed 2 duplicate /gene - tal_1 tal_2
+[18:47:48] Fixed 2 duplicate /gene - pds_1 pds_2
+[18:47:48] Fixed 2 duplicate /gene - ruvB_1 ruvB_2
+[18:47:48] Fixed 2 duplicate /gene - uvrA_1 uvrA_2
+[18:47:48] Fixed 2 duplicate /gene - pebA_1 pebA_2
+[18:47:48] Fixed 2 duplicate /gene - pipB2_1 pipB2_2
+[18:47:48] Fixed 2 duplicate /gene - era_1 era_2
+[18:47:48] Fixed 2 duplicate /gene - apcD_1 apcD_2
+[18:47:48] Fixed 2 duplicate /gene - pbsA1_1 pbsA1_2
+[18:47:48] Fixed 3 duplicate /gene - btuD_1 btuD_2 btuD_3
+[18:47:48] Fixed 2 duplicate /gene - secA_1 secA_2
+[18:47:48] Fixed 2 duplicate /gene - pyrC_1 pyrC_2
+[18:47:48] Fixed 2 duplicate /gene - dfa3_1 dfa3_2
+[18:47:48] Fixed 3 duplicate /gene - ubiB_1 ubiB_2 ubiB_3
+[18:47:48] Fixed 2 duplicate /gene - acpP_1 acpP_2
+[18:47:48] Fixed 2 duplicate /gene - ndhB_1 ndhB_2
+[18:47:48] Fixed 2 duplicate /gene - ftsH_1 ftsH_2
+[18:47:48] Fixed 2 duplicate /gene - walR_1 walR_2
+[18:47:48] Fixed 2 duplicate /gene - ctaE_1 ctaE_2
+[18:47:48] Fixed 2 duplicate /gene - clpS_1 clpS_2
+[18:47:48] Fixed 2 duplicate /gene - der_1 der_2
+[18:47:48] Fixed 2 duplicate /gene - cpcS_1 cpcS_2
+[18:47:48] Fixed 3 duplicate /gene - gph_1 gph_2 gph_3
+[18:47:48] Fixed 2 duplicate /gene - dfa5_1 dfa5_2
+[18:47:48] Fixed 2 duplicate /gene - ribD_1 ribD_2
+[18:47:48] Fixed 5 duplicate /gene - dnaJ_1 dnaJ_2 dnaJ_3 dnaJ_4 dnaJ_5
+[18:47:48] Fixed 2 duplicate /gene - hemH_1 hemH_2
+[18:47:48] Fixed 2 duplicate /gene - tadA_1 tadA_2
+[18:47:48] Fixed 2 duplicate /gene - speA_1 speA_2
+[18:47:48] Fixed 2 duplicate /gene - COQ5_1 COQ5_2
+[18:47:48] Fixed 2 duplicate /gene - secY_1 secY_2
+[18:47:48] Fixed 2 duplicate /gene - nifD_1 nifD_2
+[18:47:48] Fixed 2 duplicate /gene - cmpR_1 cmpR_2
+[18:47:48] Fixed 2 duplicate /gene - fbiC_1 fbiC_2
+[18:47:48] Fixed 5 duplicate /gene - ctaD_1 ctaD_2 ctaD_3 ctaD_4 ctaD_5
+[18:47:48] Fixed 2 duplicate /gene - menH_1 menH_2
+[18:47:48] Fixed 3 duplicate /gene - bicA_1 bicA_2 bicA_3
+[18:47:48] Fixed 2 duplicate /gene - trxB_1 trxB_2
+[18:47:48] Fixed 2 duplicate /gene - glmM_1 glmM_2
+[18:47:48] Fixed 2 duplicate /gene - clpB1_1 clpB1_2
+[18:47:48] Fixed 2 duplicate /gene - glyS_1 glyS_2
+[18:47:48] Fixed 2 duplicate /gene - suhB_1 suhB_2
+[18:47:48] Fixed 2 duplicate /gene - smc_1 smc_2
+[18:47:48] Fixed 3 duplicate /gene - ndhD1_1 ndhD1_2 ndhD1_3
+[18:47:48] Fixed 4 duplicate /gene - sasA_1 sasA_2 sasA_3 sasA_4
+[18:47:48] Fixed 2 duplicate /gene - rnr_1 rnr_2
+[18:47:48] Fixed 2 duplicate /gene - cobN_1 cobN_2
+[18:47:48] Fixed 2 duplicate /gene - mutL_1 mutL_2
+[18:47:48] Fixed 4 duplicate /gene - clpP_1 clpP_2 clpP_3 clpP_4
+[18:47:48] Fixed 64 colliding /gene names.
+[18:47:48] Adding /locus_tag identifiers
+[18:47:48] Assigned 1988 locus_tags to CDS and RNA features.
+[18:47:48] Writing outputs to BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/
+[18:47:49] Generating annotation statistics file
+[18:47:49] Generating Genbank and Sequin files
+[18:47:49] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.err -i BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.fsa 2> /dev/null
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.gbf
+[tbl2asn-forever] Correcting dates in BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 25-JAN-2022
+[18:47:53] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/errorsummary.val
+[18:47:53] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.dr
+[18:47:53] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.fixedproducts
+[18:47:53] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.ecn
+[18:47:53] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.val
+[18:47:53] Repairing broken .GBK output that tbl2asn produces...
+[18:47:53] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.gbf > BGEO_SAMN07136523_METAG_IKJKMCAK\.prokka\.d\/BGEO_SAMN07136523_METAG_IKJKMCAK\.gbk
+[18:47:53] Deleting unwanted file: BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.gbf
+[18:47:53] Output files:
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.tbl
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.tsv
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.gbk
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.faa
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.err
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.fsa
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.sqn
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.ffn
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.fna
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.txt
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.log
+[18:47:53] BGEO_SAMN07136523_METAG_IKJKMCAK.prokka.d/BGEO_SAMN07136523_METAG_IKJKMCAK.gff
+[18:47:53] Annotation finished successfully.
+[18:47:53] Walltime used: 0.63 minutes
+[18:47:53] If you use this result please cite the Prokka paper:
+[18:47:53] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[18:47:53] Type 'prokka --citation' for more details.
+[18:47:53] Thank you, come again.

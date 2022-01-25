@@ -5,6 +5,8 @@ chdir $ROOT/original_data
 screen -t original_data
 chdir $ROOT/annotations/prokka
 screen -t prokka
+chdir $ROOT/checkm
+screen -t checkm
 chdir $ROOT/scripts
 screen -t scripts
 chdir $ROOT

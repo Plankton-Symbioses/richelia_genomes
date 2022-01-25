@@ -3,13 +3,13 @@ GCF_000350105.1	R. euintracellularis	H. hauckii	ReuHH01	3.24	3.47	33.71	93.44	Hi
 GCF_000350125.1	R. euintracellularis	H. membranaceus	ReuHM01	2.21	3.42	33.76	64.75	Hilton et al. 2013
 GCA_000613065.1	R. intracellularis	Rh. clevei	RintRC01	5.48	5.82	39.16	94.34	Hilton 2014
 GCF_900185595.1	R. rhizosoleniae	Ch. compressus	RrhiSC01	5.97	6.04	39.47	98.78	Hilton et al. 2013
-GCA_002470035.1	R. euintracelluaris	MAG	UBA7409	3.04	3.43	33.71	88.62	Parks et al. 2017
-GCA_002377925.1	R. euintracelluaris	MAG	UBA3481	3.21	3.46	33.53	92.74	Parks et al. 2017
+GCA_002470035.1	R. euintracellularis	MAG	UBA7409	3.04	3.43	33.71	88.62	Parks et al. 2017
+GCA_002377925.1	R. euintracellularis	MAG	UBA3481	3.21	3.46	33.53	92.74	Parks et al. 2017
 GCA_013214565.1	R. intracellularis	MAG: station ALOHA, 4000 m	MAG_DT_104	4.62	4.66	39.06	99	unpubl.
 GCA_900299445.1	R. euintracellularis	MAG: Amazon River coastal ocean	AM_2804	3.29	3.53	33.5	93.56	unpubl.
-TARA_MED_95_MAG_00146	R. euintracelluaris	MAG: Tara Oceans	TARA_MED_95_MAG_00146	3.04	3.41	34	89.3	Delmont et al. 2021
-BGEO_SAMN07136523_METAG_IKJKMCAK	R. euintracelluaris	MAG	BGEO_SAMN07136523_METAG_IKJKMCAK	2.67	3.41	36	78.37	Paoli et al. 2021
-MARD_SAMEA2272302_REFG_MMP2272302	R. euintracelluaris	MAG	MARD_SAMEA2272302_REFG_MMP2272302	2.21	3.41	34	64.75	Paoli et al. 2021
-MARD_SAMEA2272692_REFG_MMP2272692	R. euintracelluaris	MAG	MARD_SAMEA2272692_REFG_MMP2272692	3.24	3.47	34	93.44	Paoli et al. 2021
-MARD_SAMEA3138990_REFG_MMP3138990	R. intracellularis	MAG	MARD_SAMEA3138990_REFG_MMP3138990	5.49	5.82	39	94.34	Paoli et al. 2021
-TARA_PON_109_MAG_00086	Candidatus Richelia exalis 	MAG: Tara Oceans	TARA_PON_109_MAG_00086	3.1	3.5	34	88.4	Delmont et al. 2021
+TARA_MED_95_MAG_00146	R. euintracellularis	MAG: Tara Oceans	ReuDelmont00146	3.04	3.41	34	89.3	Delmont et al. 2021
+BGEO_SAMN07136523_METAG_IKJKMCAK	R. euintracellularis	MAG	ReuPaoli00	2.67	3.41	36	78.37	Paoli et al. 2021
+MARD_SAMEA2272302_REFG_MMP2272302	R. euintracellularis	MAG	ReuPaoli01	2.21	3.41	34	64.75	Paoli et al. 2021
+MARD_SAMEA2272692_REFG_MMP2272692	R. euintracellularis	MAG	ReuPaoli02	3.24	3.47	34	93.44	Paoli et al. 2021
+MARD_SAMEA3138990_REFG_MMP3138990	R. intracellularis	MAG	RintPaoli03	5.49	5.82	39	94.34	Paoli et al. 2021
+TARA_PON_109_MAG_00086	Candidatus Richelia exalis 	MAG: Tara Oceans	RexDelmont00086	3.1	3.5	34	88.4	Delmont et al. 2021

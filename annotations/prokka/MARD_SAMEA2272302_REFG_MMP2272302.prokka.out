@@ -1,0 +1,340 @@
+[19:10:45] This is prokka 1.14.6
+[19:10:45] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[19:10:45] Homepage is https://github.com/tseemann/prokka
+[19:10:45] Local time is Mon Jan 24 19:10:45 2022
+[19:10:45] You are dl
+[19:10:45] Operating system is linux
+[19:10:45] You have BioPerl 1.007002
+[19:10:45] System has 24 cores.
+[19:10:45] Will use maximum of 24 cores.
+[19:10:45] Annotating as >>> Bacteria <<<
+[19:10:45] Generating locus_tag from 'MARD_SAMEA2272302_REFG_MMP2272302.fna' contents.
+[19:10:45] Setting --locustag FIHIIOEN from MD5 f21228e78defc5690400b775096ffcd1
+[19:10:45] Enabling options to ensure Genbank/ENA/DDJB submission compliance.
+[19:10:45] Creating new output folder: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d
+[19:10:45] Running: mkdir -p MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d
+[19:10:45] Using filename prefix: MARD_SAMEA2272302_REFG_MMP2272302.XXX
+[19:10:45] Setting HMMER_NCPU=1
+[19:10:45] Writing log to: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.log
+[19:10:45] Command: /home/dl/miniconda3/envs/prokka/bin/prokka --outdir=MARD_SAMEA2272302_REFG_MMP2272302.prokka.d --prefix=MARD_SAMEA2272302_REFG_MMP2272302 --cpus=0 --centre X --compliant MARD_SAMEA2272302_REFG_MMP2272302.fna
+[19:10:45] Appending to PATH: /home/dl/miniconda3/envs/prokka/bin
+[19:10:45] Looking for 'aragorn' - found /home/dl/miniconda3/envs/prokka/bin/aragorn
+[19:10:45] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[19:10:45] Looking for 'barrnap' - found /home/dl/miniconda3/envs/prokka/bin/barrnap
+[19:10:45] Determined barrnap version is 000009 from 'barrnap 0.9'
+[19:10:45] Looking for 'blastp' - found /home/dl/miniconda3/envs/prokka/bin/blastp
+[19:10:45] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[19:10:45] Looking for 'cmpress' - found /home/dl/miniconda3/envs/prokka/bin/cmpress
+[19:10:45] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[19:10:45] Looking for 'cmscan' - found /home/dl/miniconda3/envs/prokka/bin/cmscan
+[19:10:45] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[19:10:45] Looking for 'egrep' - found /usr/bin/egrep
+[19:10:45] Looking for 'find' - found /usr/bin/find
+[19:10:45] Looking for 'grep' - found /usr/bin/grep
+[19:10:45] Looking for 'hmmpress' - found /home/dl/miniconda3/envs/prokka/bin/hmmpress
+[19:10:45] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[19:10:45] Looking for 'hmmscan' - found /home/dl/miniconda3/envs/prokka/bin/hmmscan
+[19:10:45] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[19:10:45] Looking for 'java' - found /home/dl/miniconda3/envs/prokka/bin/java
+[19:10:45] Looking for 'makeblastdb' - found /home/dl/miniconda3/envs/prokka/bin/makeblastdb
+[19:10:46] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[19:10:46] Looking for 'minced' - found /home/dl/miniconda3/envs/prokka/bin/minced
+[19:10:46] Determined minced version is 004002 from 'minced 0.4.2'
+[19:10:46] Looking for 'parallel' - found /home/dl/miniconda3/envs/prokka/bin/parallel
+[19:10:46] Determined parallel version is 20211222 from 'GNU parallel 20211222'
+[19:10:46] Looking for 'prodigal' - found /home/dl/miniconda3/envs/prokka/bin/prodigal
+[19:10:46] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[19:10:46] Looking for 'prokka-genbank_to_fasta_db' - found /home/dl/miniconda3/envs/prokka/bin/prokka-genbank_to_fasta_db
+[19:10:46] Looking for 'sed' - found /usr/bin/sed
+[19:10:46] Looking for 'tbl2asn' - found /home/dl/miniconda3/envs/prokka/bin/tbl2asn
+[19:10:46] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[19:10:46] Using genetic code table 11.
+[19:10:46] Loading and checking input file: MARD_SAMEA2272302_REFG_MMP2272302.fna
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_52
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_74
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_83
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_111
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_127
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_178
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_182
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_190
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_256
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_266
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_282
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_311
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_348
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_433
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_486
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_582
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_606
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_612
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_630
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_680
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_731
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_790
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_798
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_843
+[19:10:46] Skipping short (<200 bp) contig: MARD_MMP2272302_REFG-scaffold_898
+[19:10:46] Wrote 916 contigs totalling 2209332 bp.
+[19:10:46] Predicting tRNAs and tmRNAs
+[19:10:46] Running: aragorn -l -gc11  -w MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.fna
+[19:10:46] 1 tRNA-His c[6972,7045] 34 (gtg)
+[19:10:46] 1 tRNA-Arg c[5081,5154] 35 (acg)
+[19:10:46] 2 tRNA-Pro [6597,6671] 35 (cgg)
+[19:10:46] 1 tRNA-Ser c[4274,4365] 35 (gct)
+[19:10:47] 1 tRNA-Asn c[4213,4286] 34 (gtt)
+[19:10:47] 1 tRNA-Gln [-2,70] 33 (ttg)
+[19:10:47] 1 tRNA-Arg c[954,1029] 36 (tct)
+[19:10:47] 1 tRNA-Ala [348,422] 35 (ggc)
+[19:10:47] 1 tRNA-Pro c[1106,1179] 35 (ggg)
+[19:10:47] 1 tRNA-Ala [187,262] 35 (cgc)
+[19:10:47] 2 tRNA-Leu [31177,31257] 35 (gag)
+[19:10:47] 1 tRNA-Ser [910,998] 36 (gga)
+[19:10:47] 1 tRNA-Cys c[720,791] 33 (gca)
+[19:10:47] 1 tRNA-Pro [570,643] 35 (tgg)
+[19:10:47] 1 tRNA-Arg [2899,2975] 36 (cct)
+[19:10:47] 1 tRNA-Ala c[1118,1192] 35 (tgc)
+[19:10:47] 2 tRNA-Ile c[1241,1316] 35 (gat)
+[19:10:47] 1 tRNA-Trp c[632,705] 34 (cca)
+[19:10:47] 1 tRNA-Val c[22611,22685] 35 (gac)
+[19:10:47] 1 tRNA-Gly [813,884] 33 (gcc)
+[19:10:47] 1 tRNA-Leu c[2093,2178] 36 (caa)
+[19:10:47] 2 tRNA-Leu [4848,4931] 35 (cag)
+[19:10:47] 1 tRNA-Ser [181,267] 36 (tga)
+[19:10:47] 1 tRNA-Tyr [333,417] 35 (gta)
+[19:10:47] 2 tRNA-Thr [490,561] 33 (ggt)
+[19:10:47] 1 tRNA-Phe [3470,3544] 35 (gaa)
+[19:10:47] Found 26 tRNAs
+[19:10:47] Predicting Ribosomal RNAs
+[19:10:47] Running Barrnap with 24 threads
+[19:10:47] 1 gnl|X|FIHIIOEN_188 8 23S ribosomal RNA (partial)
+[19:10:47] 2 gnl|X|FIHIIOEN_767 4 23S ribosomal RNA (partial)
+[19:10:47] 3 gnl|X|FIHIIOEN_767 1467 16S ribosomal RNA
+[19:10:47] Found 3 rRNAs
+[19:10:47] Skipping ncRNA search, enable with --rfam if desired.
+[19:10:47] Total of 29 tRNA + rRNA features
+[19:10:47] Searching for CRISPR repeats
+[19:10:48] Found 0 CRISPRs
+[19:10:48] Predicting coding sequences
+[19:10:48] Contigs total 2209332 bp, so using single mode
+[19:10:48] Running: prodigal -i MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.fna -c -m -g 11 -p single -f sco -q
+[19:10:48] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|FIHIIOEN_31:6885..7079 on - strand
+[19:10:48] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|FIHIIOEN_42:5059..5172 on - strand
+[19:10:49] Excluding CDS which overlaps existing RNA (rRNA) at gnl|X|FIHIIOEN_188:1268..1504 on + strand
+[19:10:49] Excluding CDS which overlaps existing RNA (rRNA) at gnl|X|FIHIIOEN_188:1552..1728 on - strand
+[19:10:49] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|FIHIIOEN_594:31125..31307 on + strand
+[19:10:49] Excluding CDS which overlaps existing RNA (rRNA) at gnl|X|FIHIIOEN_767:338..466 on - strand
+[19:10:49] Excluding CDS which overlaps existing RNA (rRNA) at gnl|X|FIHIIOEN_767:1887..2015 on - strand
+[19:10:49] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|FIHIIOEN_842:149..286 on + strand
+[19:10:49] Found 1691 CDS
+[19:10:49] Connecting features back to sequences
+[19:10:49] Not using genus-specific database. Try --usegenus to enable it.
+[19:10:49] Annotating CDS, please be patient.
+[19:10:49] Will use 24 CPUs for similarity searching.
+[19:10:49] There are still 1691 unannotated CDS left (started with 1691)
+[19:10:49] Will use blast to search against /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/IS with 24 CPUs
+[19:10:49] Running: cat MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.IS\.tmp\.3467131\.faa | parallel --gnu --plain -j 24 --block 7382 --recstart '>' --pipe blastp -query - -db /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.IS\.tmp\.3467131\.blast 2> /dev/null
+[19:10:53] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.IS.tmp.3467131.faa
+[19:10:53] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.IS.tmp.3467131.blast
+[19:10:53] There are still 1691 unannotated CDS left (started with 1691)
+[19:10:53] Will use blast to search against /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR with 24 CPUs
+[19:10:53] Running: cat MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.AMR\.tmp\.3467131\.faa | parallel --gnu --plain -j 24 --block 7382 --recstart '>' --pipe blastp -query - -db /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.AMR\.tmp\.3467131\.blast 2> /dev/null
+[19:10:56] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.AMR.tmp.3467131.faa
+[19:10:56] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.AMR.tmp.3467131.blast
+[19:10:57] There are still 1691 unannotated CDS left (started with 1691)
+[19:10:57] Will use blast to search against /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot with 24 CPUs
+[19:10:57] Running: cat MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.sprot\.tmp\.3467131\.faa | parallel --gnu --plain -j 24 --block 7382 --recstart '>' --pipe blastp -query - -db /home/dl/miniconda3/envs/prokka/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.sprot\.tmp\.3467131\.blast 2> /dev/null
+[19:11:04] Modify product: Uncharacterized protein YqeN => putative protein YqeN
+[19:11:04] Modify product: UPF0047 protein Rv2556c => hypothetical protein
+[19:11:04] Modify product: Uncharacterized protein YciH => putative protein YciH
+[19:11:04] Modify product: Uncharacterized protein Rv1829 => putative protein
+[19:11:04] Modify product: Epimerase family protein SA0724 => Epimerase family protein
+[19:11:04] Modify product: NADH dehydrogenase-like protein SAOUHSC_00878 => NADH dehydrogenase-like protein
+[19:11:04] Modify product: Probable copper-exporting P-type ATPase V => putative copper-exporting P-type ATPase V
+[19:11:04] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[19:11:04] Modify product: Rqc2 homolog RqcH => Rqc2 RqcH
+[19:11:04] Modify product: Monocarboxylate 2-oxoacid-binding periplasmic protein all3028 => Monocarboxylate 2-oxoacid-binding periplasmic protein
+[19:11:04] Modify product: Glycogen operon protein GlgX homolog => Glycogen operon protein GlgX 
+[19:11:04] Modify product: Uncharacterized MFS-type transporter YfcJ => putative MFS-type transporter YfcJ
+[19:11:04] Modify product: Probable flavin reductase => putative flavin reductase
+[19:11:04] Modify product: Probable adenylyltransferase/sulfurtransferase MoeZ => putative adenylyltransferase/sulfurtransferase MoeZ
+[19:11:04] Modify product: Probable multidrug resistance ABC transporter ATP-binding/permease protein YheH => putative multidrug resistance ABC transporter ATP-binding/permease protein YheH
+[19:11:04] Modify product: Uncharacterized protein alr4550 => putative protein
+[19:11:04] Modify product: Uncharacterized protein Rv0502 => putative protein
+[19:11:04] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[19:11:04] Modify product: N-glycosidase Npun_R5314 => N-glycosidase
+[19:11:04] Modify product: Uncharacterized protein Rv2715 => putative protein
+[19:11:04] Modify product: Uncharacterized oxidoreductase SA2266 => putative oxidoreductase
+[19:11:04] Modify product: Probable undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase => putative undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase
+[19:11:04] Modify product: UPF0053 protein Rv2366c => hypothetical protein
+[19:11:04] Modify product: UPF0234 protein Rv0566c => hypothetical protein
+[19:11:04] Modify product: Probable cytosol aminopeptidase => putative cytosol aminopeptidase
+[19:11:04] Modify product: Uncharacterized protein slr1565 => putative protein
+[19:11:04] Modify product: Probable cysteine desulfurase => putative cysteine desulfurase
+[19:11:04] Modify product: Probable ATP-dependent transporter SufC => putative ATP-dependent transporter SufC
+[19:11:04] Modify product: Probable protein kinase UbiB => putative protein kinase UbiB
+[19:11:04] Modify product: GTP cyclohydrolase 1 type 2 homolog => GTP cyclohydrolase 1 type 2 
+[19:11:04] Modify product: 1,4-alpha-glucan branching enzyme TTHA1902 => 1,4-alpha-glucan branching enzyme
+[19:11:04] Modify product: Peptidoglycan-N-acetylglucosamine deacetylase BC_3618 => Peptidoglycan-N-acetylglucosamine deacetylase
+[19:11:04] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[19:11:04] Modify product: Uncharacterized symporter YjmB => putative symporter YjmB
+[19:11:04] Modify product: Probable iron export permease protein FetB => putative iron export permease protein FetB
+[19:11:04] Modify product: Probable ribonucleotide transport ATP-binding protein mkl => putative ribonucleotide transport ATP-binding protein mkl
+[19:11:04] Modify product: Probable ketoamine kinase HMPREF0351_12196 => putative ketoamine kinase
+[19:11:04] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[19:11:04] Modify product: Sulfurtransferase Alvin_2599 => Sulfurtransferase
+[19:11:04] Modify product: Peroxiredoxin sll1621 => Peroxiredoxin
+[19:11:04] Modify product: Probable nicotinate-nucleotide pyrophosphorylase [carboxylating] => putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
+[19:11:04] Modify product: Uncharacterized ABC transporter ATP-binding protein YxlF => putative ABC transporter ATP-binding protein YxlF
+[19:11:04] Modify product: Probable 30S ribosomal protein PSRP-3 => putative 30S ribosomal protein PSRP-3
+[19:11:04] Modify product: Probable cytochrome c oxidase subunit 1 => putative cytochrome c oxidase subunit 1
+[19:11:04] Modify product: Uncharacterized oxidoreductase MSMEG_1603/MSMEI_1564 => putative oxidoreductase/MSMEI_1564
+[19:11:04] Modify product: Phage shock protein A homolog => Phage shock protein A 
+[19:11:04] Modify product: Phage shock protein A homolog => Phage shock protein A 
+[19:11:04] Cleaned 47 /product names
+[19:11:04] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.sprot.tmp.3467131.faa
+[19:11:04] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.sprot.tmp.3467131.blast
+[19:11:04] There are still 1046 unannotated CDS left (started with 1691)
+[19:11:04] Will use hmmer3 to search against /home/dl/miniconda3/envs/prokka/db/hmm/HAMAP.hmm with 24 CPUs
+[19:11:04] Running: cat MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.HAMAP\.hmm\.tmp\.3467131\.faa | parallel --gnu --plain -j 24 --block 3662 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/dl/miniconda3/envs/prokka/db/hmm/HAMAP.hmm /dev/stdin > MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.HAMAP\.hmm\.tmp\.3467131\.hmmer3 2> /dev/null
+[19:11:12] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.HAMAP.hmm.tmp.3467131.faa
+[19:11:12] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.HAMAP.hmm.tmp.3467131.hmmer3
+[19:11:12] Labelling remaining 919 proteins as 'hypothetical protein'
+[19:11:12] Possible /pseudo 'Phosphoribosylglycinamide formyltransferase' at gnl|X|FIHIIOEN_17 position 785
+[19:11:12] Possible /pseudo 'Elongation factor P' at gnl|X|FIHIIOEN_29 position 1036
+[19:11:12] Possible /pseudo 'Ribonuclease R' at gnl|X|FIHIIOEN_183 position 38829
+[19:11:12] Possible /pseudo 'Pyridinium-3,5-bisthiocarboxylic acid mononucleotide nickel insertion protein' at gnl|X|FIHIIOEN_293 position 16698
+[19:11:12] Possible /pseudo 'Cytochrome c biogenesis protein CcsB' at gnl|X|FIHIIOEN_304 position 512
+[19:11:12] Possible /pseudo 'ATP-dependent Clp protease proteolytic subunit' at gnl|X|FIHIIOEN_320 position 26874
+[19:11:12] Possible /pseudo 'N-(5'-phosphoribosyl)anthranilate isomerase' at gnl|X|FIHIIOEN_446 position 6806
+[19:11:12] Possible /pseudo 'Indole-3-glycerol phosphate synthase' at gnl|X|FIHIIOEN_470 position 841
+[19:11:12] Possible /pseudo 'Threonine-phosphate decarboxylase' at gnl|X|FIHIIOEN_473 position 4311
+[19:11:12] Possible /pseudo 'Heterocyst differentiation ATP-binding protein HepA' at gnl|X|FIHIIOEN_527 position 3954
+[19:11:12] Possible /pseudo 'Adaptive-response sensory-kinase SasA' at gnl|X|FIHIIOEN_546 position 1280
+[19:11:12] Possible /pseudo 'Isoaspartyl peptidase/L-asparaginase' at gnl|X|FIHIIOEN_594 position 3897
+[19:11:12] Possible /pseudo 'Aspartate--tRNA(Asp) ligase' at gnl|X|FIHIIOEN_615 position 1647
+[19:11:12] Possible /pseudo 'Transcription termination/antitermination protein NusA' at gnl|X|FIHIIOEN_627 position 786
+[19:11:12] Possible /pseudo 'Transcription-repair-coupling factor' at gnl|X|FIHIIOEN_669 position 5256
+[19:11:12] Possible /pseudo 'Phycobiliprotein ApcE' at gnl|X|FIHIIOEN_699 position 1622
+[19:11:12] Possible /pseudo 'Phycobiliprotein ApcE' at gnl|X|FIHIIOEN_699 position 1689
+[19:11:12] Possible /pseudo 'Histidine--tRNA ligase' at gnl|X|FIHIIOEN_789 position 3508
+[19:11:12] Possible /pseudo 'Glutamine--fructose-6-phosphate aminotransferase [isomerizing]' at gnl|X|FIHIIOEN_821 position 2899
+[19:11:12] Possible /pseudo 'Pyridoxine/pyridoxamine 5'-phosphate oxidase' at gnl|X|FIHIIOEN_828 position 1555
+[19:11:12] Possible /pseudo 'L-threonine dehydratase biosynthetic IlvA' at gnl|X|FIHIIOEN_844 position 3352
+[19:11:12] Possible /pseudo 'UvrABC system protein A' at gnl|X|FIHIIOEN_846 position 4929
+[19:11:12] Possible /pseudo 'Phage shock protein A ' at gnl|X|FIHIIOEN_885 position 3864
+[19:11:12] Possible /pseudo 'Adenylosuccinate lyase' at gnl|X|FIHIIOEN_885 position 16290
+[19:11:12] Possible /pseudo 'ATP-dependent DNA helicase PcrA' at gnl|X|FIHIIOEN_894 position 7903
+[19:11:12] Possible /pseudo 'ATP synthase subunit a' at gnl|X|FIHIIOEN_906 position 793
+[19:11:12] Found 618 unique /gene codes.
+[19:11:12] Fixed 4 duplicate /gene - mshA_1 mshA_2 mshA_3 mshA_4
+[19:11:12] Fixed 2 duplicate /gene - proA_1 proA_2
+[19:11:12] Fixed 2 duplicate /gene - clpC_1 clpC_2
+[19:11:12] Fixed 2 duplicate /gene - fbiC_1 fbiC_2
+[19:11:12] Fixed 2 duplicate /gene - vraR_1 vraR_2
+[19:11:12] Fixed 2 duplicate /gene - gshA_1 gshA_2
+[19:11:12] Fixed 2 duplicate /gene - atpB_1 atpB_2
+[19:11:12] Fixed 3 duplicate /gene - dapL_1 dapL_2 dapL_3
+[19:11:12] Fixed 4 duplicate /gene - apcE_1 apcE_2 apcE_3 apcE_4
+[19:11:12] Fixed 2 duplicate /gene - smc_1 smc_2
+[19:11:12] Fixed 2 duplicate /gene - hisS_1 hisS_2
+[19:11:12] Fixed 2 duplicate /gene - ilvA_1 ilvA_2
+[19:11:12] Fixed 2 duplicate /gene - trpF_1 trpF_2
+[19:11:12] Fixed 2 duplicate /gene - icd_1 icd_2
+[19:11:12] Fixed 2 duplicate /gene - ecfA2_1 ecfA2_2
+[19:11:12] Fixed 2 duplicate /gene - dfa5_1 dfa5_2
+[19:11:12] Fixed 2 duplicate /gene - apcD_1 apcD_2
+[19:11:12] Fixed 2 duplicate /gene - cmpR_1 cmpR_2
+[19:11:12] Fixed 2 duplicate /gene - cpdA_1 cpdA_2
+[19:11:12] Fixed 2 duplicate /gene - mntB_1 mntB_2
+[19:11:12] Fixed 2 duplicate /gene - ccsB_1 ccsB_2
+[19:11:12] Fixed 2 duplicate /gene - mutS2_1 mutS2_2
+[19:11:12] Fixed 2 duplicate /gene - gcvT_1 gcvT_2
+[19:11:12] Fixed 2 duplicate /gene - clpP_1 clpP_2
+[19:11:12] Fixed 2 duplicate /gene - recJ_1 recJ_2
+[19:11:12] Fixed 2 duplicate /gene - ctaE_1 ctaE_2
+[19:11:12] Fixed 6 duplicate /gene - dnaJ_1 dnaJ_2 dnaJ_3 dnaJ_4 dnaJ_5 dnaJ_6
+[19:11:12] Fixed 2 duplicate /gene - trxB_1 trxB_2
+[19:11:12] Fixed 2 duplicate /gene - lpxD_1 lpxD_2
+[19:11:12] Fixed 2 duplicate /gene - ftsH2_1 ftsH2_2
+[19:11:12] Fixed 2 duplicate /gene - ubiB_1 ubiB_2
+[19:11:12] Fixed 2 duplicate /gene - dtd3_1 dtd3_2
+[19:11:12] Fixed 2 duplicate /gene - uvrA_1 uvrA_2
+[19:11:12] Fixed 2 duplicate /gene - lepB_1 lepB_2
+[19:11:12] Fixed 2 duplicate /gene - purB_1 purB_2
+[19:11:12] Fixed 6 duplicate /gene - sasA_1 sasA_2 sasA_3 sasA_4 sasA_5 sasA_6
+[19:11:12] Fixed 2 duplicate /gene - pcrA_1 pcrA_2
+[19:11:12] Fixed 2 duplicate /gene - rcsC_1 rcsC_2
+[19:11:12] Fixed 2 duplicate /gene - cpoB_1 cpoB_2
+[19:11:12] Fixed 3 duplicate /gene - btuD_1 btuD_2 btuD_3
+[19:11:12] Fixed 2 duplicate /gene - glmS_1 glmS_2
+[19:11:12] Fixed 2 duplicate /gene - htpX_1 htpX_2
+[19:11:12] Fixed 2 duplicate /gene - hepA_1 hepA_2
+[19:11:12] Fixed 3 duplicate /gene - era_1 era_2 era_3
+[19:11:12] Fixed 2 duplicate /gene - mfd_1 mfd_2
+[19:11:12] Fixed 2 duplicate /gene - cpcS_1 cpcS_2
+[19:11:12] Fixed 2 duplicate /gene - tadA_1 tadA_2
+[19:11:12] Fixed 2 duplicate /gene - pknD_1 pknD_2
+[19:11:12] Fixed 2 duplicate /gene - speA_1 speA_2
+[19:11:12] Fixed 2 duplicate /gene - dapF_1 dapF_2
+[19:11:12] Fixed 2 duplicate /gene - ndhD1_1 ndhD1_2
+[19:11:12] Fixed 2 duplicate /gene - nusA_1 nusA_2
+[19:11:12] Fixed 2 duplicate /gene - rnr_1 rnr_2
+[19:11:12] Fixed 2 duplicate /gene - gnd_1 gnd_2
+[19:11:12] Fixed 2 duplicate /gene - clpB1_1 clpB1_2
+[19:11:12] Fixed 3 duplicate /gene - cphA_1 cphA_2 cphA_3
+[19:11:12] Fixed 2 duplicate /gene - dfa3_1 dfa3_2
+[19:11:12] Fixed 2 duplicate /gene - ctaD_1 ctaD_2
+[19:11:12] Fixed 2 duplicate /gene - gyrA_1 gyrA_2
+[19:11:12] Fixed 2 duplicate /gene - menD_1 menD_2
+[19:11:12] Fixed 2 duplicate /gene - glmM_1 glmM_2
+[19:11:12] Fixed 2 duplicate /gene - infB_1 infB_2
+[19:11:12] Fixed 2 duplicate /gene - ycf3_1 ycf3_2
+[19:11:12] Fixed 2 duplicate /gene - purN_1 purN_2
+[19:11:12] Fixed 2 duplicate /gene - pbsA1_1 pbsA1_2
+[19:11:12] Fixed 2 duplicate /gene - pds_1 pds_2
+[19:11:12] Fixed 2 duplicate /gene - larC_1 larC_2
+[19:11:12] Fixed 2 duplicate /gene - malQ_1 malQ_2
+[19:11:12] Fixed 2 duplicate /gene - eno_1 eno_2
+[19:11:12] Fixed 2 duplicate /gene - trpC_1 trpC_2
+[19:11:12] Fixed 2 duplicate /gene - efp_1 efp_2
+[19:11:12] Fixed 2 duplicate /gene - pdxH_1 pdxH_2
+[19:11:12] Fixed 3 duplicate /gene - cobD_1 cobD_2 cobD_3
+[19:11:12] Fixed 73 colliding /gene names.
+[19:11:12] Adding /locus_tag identifiers
+[19:11:12] Assigned 1720 locus_tags to CDS and RNA features.
+[19:11:12] Writing outputs to MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/
+[19:11:13] Generating annotation statistics file
+[19:11:13] Generating Genbank and Sequin files
+[19:11:13] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.err -i MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.fsa 2> /dev/null
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.gbf
+[tbl2asn-forever] Correcting dates in MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 24-JAN-2022
+[19:11:16] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/errorsummary.val
+[19:11:16] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.dr
+[19:11:16] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.fixedproducts
+[19:11:16] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.ecn
+[19:11:16] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.val
+[19:11:16] Repairing broken .GBK output that tbl2asn produces...
+[19:11:16] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.gbf > MARD_SAMEA2272302_REFG_MMP2272302\.prokka\.d\/MARD_SAMEA2272302_REFG_MMP2272302\.gbk
+[19:11:16] Deleting unwanted file: MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.gbf
+[19:11:16] Output files:
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.tsv
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.fna
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.log
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.sqn
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.gbk
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.fsa
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.tbl
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.ffn
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.faa
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.err
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.txt
+[19:11:16] MARD_SAMEA2272302_REFG_MMP2272302.prokka.d/MARD_SAMEA2272302_REFG_MMP2272302.gff
+[19:11:16] Annotation finished successfully.
+[19:11:16] Walltime used: 0.52 minutes
+[19:11:16] If you use this result please cite the Prokka paper:
+[19:11:16] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[19:11:16] Type 'prokka --citation' for more details.
+[19:11:16] Share and enjoy!
